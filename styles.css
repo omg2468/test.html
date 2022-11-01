@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    font-family: helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* header */
+.header {
+    width: 100%;
+    display: inline-flex;
+    height: 69px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.navigation a{
+    margin: 0px 5px;
+}
+
+/*mission*/
+.ourmission {
+    position: relative;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1ci0cvi*_ga*NDAyMzk0Mjc4MC4xNjY0OTMxNjkw*_ga_3LRZM6TM9L*MTY2NzE5OTY1NC4xMDMuMS4xNjY3MTk5NjY4LjQ2LjAuMA.');
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ourmission img {
+    height: 700px;
+    max-width: 100%;
+    border-bottom: 1px solid seashell;
+}
+
+.insidemission {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/*tea month*/
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.insidetea img {
+    opacity: 1;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+.hac-sida {
+    background-color: black;
+    width: 30%;
+    height: auto;
+    margin: 5px;
+}
+
+.insidetea p {
+    margin-top: 5px;
+    padding: 0;
+}
+
+.insidetea {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1000px;
+    justify-content: center;
+}
+
+/* this is location */
+.location {
+    position: relative;
+}
+
+.location img{
+    height: 500px;
+    width: 1200px;
+}
+
+.insidelocation {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    }
+
+.downtown, .eastbayside, .oakdale {
+    padding: 10px;
+    margin: 0px 20px;
+    opacity: 1;
+    background-color: black;
+}
+
+.boxx h2 {
+    background-color: transparent;
+}
+
+.boxx {
+    background-color: transparent;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+}
+
+/*footer*/
+
+.footer { 
+    margin: 0;
+    padding: 0;
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+    padding: 0;
+}
